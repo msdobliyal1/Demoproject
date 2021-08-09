@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+manoj-ngnix
+ image: ngnix
+ networks: -threelayernetwork
+ port: "08080:80"
+ container_name: manoj-nginx
+Networks:
+ threelayernetowk:
